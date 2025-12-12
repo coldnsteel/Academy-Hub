@@ -1,0 +1,13 @@
+# 🛒 CLUSTER 7: COMMERCE & STOREFRONT
+**The Interface with the Economy**
+
+## 🎯 Purpose
+The public-facing sales interface. Handling Crypto (BTC/ETH/CTOK) and Venmo transactions for the entire ecosystem.
+
+## 📂 Repository Inventory
+* **GMSRFC:** Main Storefront (Gottschalk, Moseley, Santoro, Ramirez Fine Collectibles).
+    * *Includes:* `/Dogpatch-Market`, `/sectors/cashier`, `/studios`.
+
+## 🧭 Navigation
+* **Upstream:** [Return to Master Library Index](../Academy-Hub/LIBRARY_INDEX.md)
+* **Governance:** Regulated by [OMEGA Principles](../psi-omega/OMEGA.md).
