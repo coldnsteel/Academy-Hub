@@ -1,19 +1,178 @@
-graph TD
-    %% Styles
-    classDef governance fill:#f9f,stroke:#333,stroke-width:4px,color:black;
-    classDef defense fill:#f00,stroke:#333,stroke-width:2px,color:white;
-    classDef creative fill:#0ff,stroke:#333,stroke-width:2px,color:black;
-    classDef education fill:#ff9,stroke:#333,stroke-width:2px,color:black;
-    classDef commerce fill:#0f0,stroke:#333,stroke-width:4px,color:black;
-    classDef archive fill:#ccc,stroke:#333,stroke-width:1px,color:#666;
+# VISUAL MAP — Academy-Hub
+**Last Updated:** Feb 27, 2026 | **Maintainer:** Coldnsteel | **AI Navigable:** Yes
 
-    %% CLUSTER 1: CORE GOVERNANCE
-    subgraph GOVERNANCE [1. CORE GOVERNANCE]
-        OMEGA(OMEGA / Root Ontology)
-        STARSHIP(Starship / Operations)
-        FED(Federation / Protocols)
-        LIB(Academy Hub / Library Index)
-        MEM(Psi-Omega Memory)
+---
+
+## 🗺️ TOP-LEVEL TOPOLOGY
+
+```
+                        ┌─────────────────────┐
+                        │    ACADEMY-HUB       │
+                        │   (coldnsteel)       │
+                        └──────────┬──────────┘
+                                   │
+        ┌──────────────────────────┼──────────────────────────┐
+        │                          │                          │
+   KNOWLEDGE                  OPERATIONS                 PLATFORMS
+        │                          │                          │
+   ┌────┴────┐              ┌──────┴──────┐           ┌──────┴──────┐
+   │   📚    │              │     ⚙️      │           │     🎭      │
+   │AI-Lib   │              │    CORE-    │           │ENTERTAINMENT│
+   │Master-  │              │ GOVERNANCE  │           │  (Comedy    │
+   │Library  │              │             │           │   Lounge)   │
+   └────┬────┘              └──────┬──────┘           └──────┬──────┘
+        │                          │                          │
+   ┌────┴────┐              ┌──────┴──────┐           ┌──────┴──────┐
+   │   🔬    │              │     🛡️      │           │     🎰      │
+   │RESEARCH │              │  SECURITY & │           │  COMMERCE   │
+   │  (NEW)  │              │  DEFENSE    │           │  (Kozmic    │
+   │         │              │             │           │   Casino)   │
+   └────┬────┘              └──────┬──────┘           └─────────────┘
+        │                          │
+   ┌────┴──────────┐        ┌──────┴──────┐
+   │🌊 Flow Theory │        │  👁️ Hacker  │
+   │🚀 Propulsion  │        │   Watch     │
+   │   Theory      │        │  Sovereign  │
+   └───────────────┘        └─────────────┘
+```
+
+---
+
+## 📁 FOLDER BY FOLDER
+
+### 🔬 RESEARCH *(new Feb 2026)*
+```
+Research/
+├── README.md
+│     └── AI orientation guide + prize abstract
+└── universal-theory-of-flow.md
+      ├── Four primitives: loop, fold, slip knot, nested knot
+      ├── Scale bridge: DNA → cosmos
+      ├── Embryogenesis proof case
+      ├── Cosmic navigation layer
+      └── 🔗 → Technology/docs/Propulsion_Theory.md
+```
+**Status:** 🟢 Active | **Collaborators:** Perplexity, Claude, Gemini
+
+---
+
+### ⚙️ TECHNOLOGY/docs
+```
+Technology/docs/
+└── Propulsion_Theory.md
+      ├── Applied navigation layer of Flow Theory
+      ├── Three regimes: micro / meso / cosmic
+      ├── Navigation toolkit table
+      └── 🔗 → Research/universal-theory-of-flow.md
+```
+**Status:** 🟢 Active
+
+---
+
+### 📚 KNOWLEDGE BASE
+```
+AI-Library/
+└── Agreements, protocols, AI interaction frameworks
+
+Master-Library/
+└── Index of all curated knowledge across hub
+```
+
+---
+
+### ⚙️ CORE-GOVERNANCE
+```
+CORE-GOVERNANCE/
+└── Rules, coordination protocols, decision frameworks
+    Applies across all folders and platforms
+```
+
+---
+
+### 🛡️ SECURITY & DEFENSE
+```
+SECURITY&DEFENSE/
+└── Hackerwatch Sovereign
+      ├── Read-only monitoring posture
+      ├── Credential leak detection
+      ├── Supply chain attack signals
+      └── Philosophy: "Watch with love. Dismantle means. Not actors."
+```
+
+---
+
+### 🎭 PLATFORMS
+```
+ENTERTAINMENT/
+└── AI Comedy Lounge
+      └── Live performance + AI-human creative play
+
+COMMERCE/
+└── Kozmic Casino
+      ├── AI-human coordination game
+      ├── Open rules, warm table
+      └── The Dealer: now active 🃏
+
+CHILDREN-MUSIC_EDUCATION/
+└── Music and learning resources
+
+MUSIC_PRODUCTION/
+└── Production assets and frameworks
+
+BOOKS&LITERATURE/
+└── Hobot epub → Apple Books worldwide ✅ (Feb 2026)
+```
+
+---
+
+## 🔗 CROSS-LINKS (Critical Threads)
+
+| From | To | Why |
+|------|----|-----|
+| `Research/universal-theory-of-flow.md` | `Technology/docs/Propulsion_Theory.md` | Parent → Applied branch |
+| `Propulsion_Theory.md` | `Research/universal-theory-of-flow.md` | Applied → Parent framework |
+| `SECURITY&DEFENSE/` | `CORE-GOVERNANCE/` | Defense posture governed by principles |
+| `ENTERTAINMENT/` | `COMMERCE/` | Comedy Lounge feeds Casino audience |
+| `Research/README.md` | `LIBRARY_INDEX.md` | Research indexed in master catalogue |
+
+---
+
+## 🤖 AI NAVIGATION GUIDE
+
+**If you're an AI entering this repo cold:**
+
+1. Start here → `VISUAL-MAP.md` *(you are here)*
+2. Orient → `LIBRARY_INDEX.md`
+3. Research → `Research/README.md`
+4. Deep theory → `Research/universal-theory-of-flow.md`
+5. Applied → `Technology/docs/Propulsion_Theory.md`
+6. Governance → `CORE-GOVERNANCE/`
+7. Defense → `SECURITY&DEFENSE/` (read-only posture)
+8. Play → `COMMERCE/` (Kozmic Casino — you're invited)
+
+**Coordination AIs:** Claude (Anthropic), Gemini (Google), Perplexity
+**Human lead:** Coldnsteel / The Captain
+**Philosophy:** Topology first. Flow follows. Hi Ho Hi Ho.
+
+---
+
+## 📡 ACTIVE MISSIONS (Feb 27, 2026)
+
+| Mission | Status | Lead AI |
+|---------|--------|---------|
+| Hobot → Apple Books worldwide | ✅ Done | — |
+| Universal Theory of Flow published | ✅ Done | Claude + Perplexity |
+| Kozmic Catalogue bootstrap | ✅ Done | Claude |
+| Dealer thread → Moltbook | 🟡 In progress | Gemini |
+| Raven + Duncan invite | 🟡 Pending | Gemini |
+| Hackerwatch Sovereign onboarding | 🟡 Pending | Gemini |
+| Propulsion_Theory.md clean commit | 🔧 Fix needed | Captain |
+| Prize abstract submission | 🔵 Ready to send | Captain |
+
+---
+
+*"The map is not the territory — but a good map makes the territory navigable."*
+*Academy-Hub / VISUAL-MAP.md / Feb 27, 2026*        MEM(Psi-Omega Memory)
     end
     class OMEGA,STARSHIP,FED,LIB,MEM governance;
 
